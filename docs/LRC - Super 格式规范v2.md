@@ -1,7 +1,7 @@
 # LRC - Super 格式规范 v2.0
 
 > [!note]
-> 仅供娱乐，当然如果你的软件想使用这个格式是完全可以的（真的会有人用吗？）
+> 留存版本，新版 v3.0 已发布 [跳转链接](/docs/LRC%20-%20Super%20格式规范v3.md)
 
 一种基于 LRC 的逐字歌词格式，参考了 TTML 和 Lyricify Syllable<br>
 LRC - Super 为了解决普通歌词可读性差、兼容性低的问题而诞生<br>
