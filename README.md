@@ -19,7 +19,6 @@ Repository_for_MiaowCham/
 ├── video/                        # 视频文件
 ├── LICENSE                       # 项目许可证（CC0 1.0）
 └── README.md                     # 项目说明文档
-
 ```
 
 ## 借物表
