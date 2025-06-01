@@ -1,0 +1,75 @@
+{
+	"version" : 3.0,
+	"type" : "syllable",
+	"language" : "en",
+	"offset" : 0,
+	"metadata": {
+		"title": "Example Song",
+		"artist": "Example Artist",
+		"album": "Example Album",
+		"agents" :{
+			"v1": {"name": "singer", "type": "person"},
+			"v2": {"name": "singer", "type": "person"}
+		},		
+		"platforms": {
+			"qqmusic": "example-qqmusic-id",
+			"spotify": [{"region": "global", "id": "example-spotify-id"},{"region": "hant", "id": "example-spotify-hant-id"}]
+		}
+	},
+	"body": [
+		{
+			"song-part": "Verse",
+			"start": 0.0, "duration": 15.0, "agent": "v1",
+			"lyrics": [
+				{
+					"line" : "L1", "start": 0.0, "duration": 5.0, "agent": "v1",
+					"syllables": [
+						{"text": "This", "start": 0.0, "duration": 1.0, "has-space": 1},
+						{"text": "is", "start": 1.0, "duration": 1.0, "has-space": 1},
+						{"text": "the", "start": 2.0, "duration": 1.0, "has-space": 1},
+						{"text": "first", "start": 3.0, "duration": 1.0, "has-space": 1},
+						{"text": "line", "start": 4.0, "duration": 1.0}
+					],
+					"x-trans" : {"text": "这是第一行歌词的翻译"},
+					"x-roma" : {"text": "这是第一行歌词的音译"}
+				},
+				{
+					"line" : "L2", "start": 5.0, "duration": 10.0, "agent": "v2", "type" : "line",
+					"text": "This is the second line, sung by a different artist."
+				}
+			]
+		},
+		{
+			"song-part": "Chorus",
+			"start": 10.0, "duration": 15.0, "agent": "v2",
+			"lyrics": [
+				{
+					"line" : "L3", "start": 10.0, "duration": 15.0, "agent": "v2",
+					"syllables": [
+						{"text": "And", "start": 10.0, "duration": 1.0, "has-space": 1},
+						{"text": "this", "start": 11.0, "duration": 1.0, "has-space": 1},
+						{"text": "is", "start": 12.0, "duration": 1.0, "has-space": 1},
+						{"text": "the", "start": 13.0, "duration": 1.0, "has-space": 1},
+						{"text": "third", "start": 14.0, "duration": 1.0, "has-space": 1},
+						{"text": "line", "start": 15.0, "duration": 1.0}
+					],
+					"x-trans" : {"text": "这是第三行歌词的翻译"},
+					"x-roma" : {"text": "这是第三行歌词的音译"},
+					"x-bg" : {
+						"start": 10.0,"duration": 15.0,
+						"syllables": [
+							{"text": "And", "start": 10.0, "duration": 1.0, "has-space": 1},
+							{"text": "this", "start": 11.0, "duration": 1.0, "has-space": 1},
+							{"text": "is", "start": 12.0, "duration": 1.0, "has-space": 1},
+							{"text": "the", "start": 13.0, "duration": 1.0, "has-space": 1},
+							{"text": "bg", "start": 14.0, "duration": 1.0, "has-space": 1},
+							{"text": "line", "start": 15.0, "duration": 1.0}
+						],
+						"x-trans" : {"text": "这是背景音节的翻译"},
+						"x-roma" : {"text": "这是背景音节的音译"}
+					}
+				}
+			]
+		}
+	]
+}
