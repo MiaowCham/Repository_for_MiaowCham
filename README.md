@@ -9,7 +9,7 @@ Repository_for_MiaowCham/
 │   ├── 翻译对比/⠀⠀             ⠀⠀# 不同歌词翻译版本对比资料
 │   ├── log/                      # 日志文件夹，记录项目相关信息
 │   ├── example-json-lyrics.json  # 基于 Apple Syllable 编写的 json 格式歌词/传输协议
-│   └── LRC - Super 格式规范v3.md⠀# LRC-Super 格式的第三版规范说明
+│   └── LRC - Super 格式规范v3.md  # LRC-Super 格式的第三版规范说明
 ├── images/                       # 图片资源
 │   ├── DeepSeek.webp             # DeepSeek logo 
 │   ├── Lyricify.ico              # Lyricify 图标
