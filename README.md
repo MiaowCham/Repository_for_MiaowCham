@@ -39,4 +39,4 @@ This means anyone can freely use the content of this repository  |  这意味着
 
 2. For files in the `./lyrics raw file` directory:  |  若要使用 `./lyrics raw file` 目录下的文件：  
    - Any form of copying, modification, or distribution is prohibited without explicit permission from the author (@MiaowCham).  |  未经作者(@MiaowCham)明确许可，禁止任何形式的复制、修改或分发。  
-   - Exception: Lyrics directly uploaded by the author @MiaowCham to [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) and *merged via approved PRs* will follow the CC0 1.0 License.  |  但由其作者 @MiaowCham 直接上传至 [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) 且 *审核通过，完成合并的 PR* 中包含的歌词则遵循 CC0 1.0 许可证。  
+   - Exception: Lyrics directly uploaded by the author @MiaowCham to [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) and *merged via approved PRs* will follow the CC0 1.0 License.  |  由其作者 @MiaowCham 直接上传至 [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) 且 *审核通过，完成合并的 PR* 中包含的歌词则遵循 CC0 1.0 许可证。  
