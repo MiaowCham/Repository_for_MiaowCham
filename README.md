@@ -17,7 +17,8 @@ Repository_for_MiaowCham/
 ├── lyrics raw file/              # 歌词原始文件
 ├── music/                        # 音乐文件
 ├── video/                        # 视频文件
-├── LICENSE                       # 项目许可证（CC0 1.0）
+├── LICENSE.CC0-1.0               # 项目许可证（CC0 1.0）
+├── LICENSE                       # 项目许可证
 └── README.md                     # 项目说明文档
 ```
 
