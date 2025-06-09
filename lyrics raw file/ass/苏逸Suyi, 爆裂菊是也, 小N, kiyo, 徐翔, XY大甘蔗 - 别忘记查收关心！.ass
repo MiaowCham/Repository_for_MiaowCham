@@ -7,13 +7,9 @@ PlayResY: 1440
 
 [Aegisub Project Garbage]
 Last Style Storage: ttml
-Audio File: ../Downloads/苏逸_Suyi; 爆裂菊是也; 小N; 清源Kiyo; 徐翔; XY大甘蔗 - 别忘记查收关心！.mp3
-Video File: ?dummy:180.000000:100000:1280:720:0:0:0:
-Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 30
-Active Line: 39
-Video Position: 12977
+Scroll Position: 21
+Active Line: 45
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -73,7 +69,7 @@ Dialogue: 0,0:01:16.22,0:01:18.38,orig,v2,0,0,0,,{\k33}少{\k29}熬{\k49}夜{\k3
 Dialogue: 0,0:01:18.38,0:01:20.49,orig,v2,0,0,0,,{\k30}要{\k28}照{\k40}顾{\k9}{\k29}好{\k25}自{\k50}己
 Dialogue: 0,0:01:20.49,0:01:23.45,orig,v2,0,0,0,,{\k28}这{\k20}一{\k26}首{\k48}新{\k6}{\k46}歌{\k6}{\k35}唱{\k26}给{\k23}你{\k32}听
 Dialogue: 0,0:01:23.62,0:01:25.53,orig,v2,0,0,0,,{\k25}别{\k27}忘{\k25}记{\k25}查{\k27}收{\k26}关{\k36}心
-Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Hook]
+Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Refrain]
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v7]
 Dialogue: 0,0:01:25.69,0:01:28.72,orig,v1,0,0,0,,{\k23}你{\k34}想{\k26}要{\k27}去{\k42}边{\k9} {\k23}你{\k32}想{\k24}要{\k26}去{\k37}边
 Dialogue: 0,0:01:28.60,0:01:29.61,orig,x-bg,0,0,0,,{\k26}去{\k28}边{\k47}吖
