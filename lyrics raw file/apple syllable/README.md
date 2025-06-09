@@ -7,4 +7,4 @@
 
 其中，json 版本支持直接被 Apple Music (如果你能给苹果的原始json请求给抓包调换的话) 和 Lyricify 4 识别，原始 ttml 版本支持被 AMLL 识别
 
-由于遵循 Apple 规范，人声 ID 数量可能大于 2，导致在不同平台出现不同的对唱效果。本仓库只保证歌词的准确性，不能保证对唱的一致性。若您想获取仅限两个人声 ID 的版本，请尝试前往 [/lyrics raw file](./lyrics%20raw%20file) 目录下其他文件夹查找适配版本。
+由于遵循 Apple 规范，人声 ID 数量可能大于 2，导致在不同平台出现不同的对唱效果。本仓库只保证歌词的准确性，不能保证对唱的一致性。若您想获取仅限两个人声 ID 的版本，请尝试前往 [/lyrics raw file](https://github.com/MiaowCham/Repository_for_MiaowCham/tree/main/lyrics%20raw%20file) 目录下其他文件夹查找适配版本。
