@@ -281,7 +281,7 @@
 				<span begin="1:25.170" end="1:25.530">心</span>
 			</p>
 		</div>
-		<div begin="1:25.690" end="1:40.390" itunes:songPart="Refrain">
+		<div begin="1:25.690" end="1:40.390" itunes:songPart="Hook">
 			<p begin="1:25.690" end="1:29.610" itunes:key="L23" ttm:agent="v7">
 				<span begin="1:25.690" end="1:25.920">你</span>
 				<span begin="1:25.920" end="1:26.260">想</span>
@@ -338,7 +338,7 @@
 				<span begin="1:39.780" end="1:40.390">理</span>
 			</p>
 		</div>
-		<div begin="1:58.020" end="2:14.940" itunes:songPart="Bridge">
+		<div begin="1:58.020" end="2:14.940" itunes:songPart="Verse">
 			<p begin="1:58.020" end="1:58.810" itunes:key="L27" ttm:agent="v4">
 				<span begin="1:58.020" end="1:58.290">谁</span>
 				<span begin="1:58.290" end="1:58.530">谁</span>
@@ -593,7 +593,7 @@
 				<span begin="3:09.500" end="3:10.030">心</span>
 			</p>
 		</div>
-		<div begin="3:10.020" end="3:24.700" itunes:songPart="Refrain">
+		<div begin="3:10.020" end="3:24.700" itunes:songPart="Hook">
 			<p begin="3:10.020" end="3:13.690" itunes:key="L49" ttm:agent="v7">
 				<span begin="3:10.020" end="3:10.300">你</span>
 				<span begin="3:10.300" end="3:10.580">我</span>
