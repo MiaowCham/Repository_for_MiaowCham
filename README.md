@@ -6,15 +6,19 @@
 ```
 Repository_for_MiaowCham/
 ├── docs                          # 文档文件夹
-│   ├── 翻译对比/⠀⠀             ⠀⠀# 不同歌词翻译版本对比资料
-│   ├── log/                      # 日志文件夹，记录项目相关信息
-│   ├── example-json-lyrics.json  # 基于 Apple Syllable 编写的 json 格式歌词/传输协议
-│   └── LRC - Super 格式规范v3.md  # LRC-Super 格式的第三版规范说明
+│   ├── log/                        # 日志文件夹，记录项目相关信息
+│   ├── Translation comparison/     # 不同歌词翻译版本对比资料
+│   ├── example-json-lyrics.json    # 基于 Apple Syllable 编写的 json 格式歌词/传输协议
+│   └── LRC - Super_v3.md           # LRC-Super 格式的第三版规范说明
 ├── images/                       # 图片资源
-│   ├── DeepSeek.webp             # DeepSeek logo 
-│   ├── Lyricify.ico              # Lyricify 图标
-│   └── Spotify.ico               # Spotify 图标
+│   ├── DeepSeek.webp               # DeepSeek logo 
+│   ├── Lyricify.ico                # Lyricify 图标
+│   └── Spotify.ico                 # Spotify 图标
 ├── lyrics raw file/              # 歌词原始文件
+│   ├── apple syllable/             # 符合 Apple Syllable 规范的歌词（测试）
+│   ├── ass/                        # 使用 Aegisub 制作的 ass 格式字幕/歌词
+│   ├── lyricify syllable/          # 喵锵上传至 Lyricify 4 的歌词的备份目录
+│   └── ttml/                       # 用于 AMLL TTML DB 上传用的暂存目录，其中文件 *大概率* 符合 AMLL 的歌词规范
 ├── music/                        # 音乐文件
 ├── video/                        # 视频文件
 ├── LICENSE.CC0-1.0               # 项目许可证（CC0 1.0）
