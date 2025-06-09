@@ -8,8 +8,8 @@ PlayResY: 1440
 [Aegisub Project Garbage]
 Last Style Storage: ttml
 Video Zoom Percent: 0.500000
-Scroll Position: 21
-Active Line: 45
+Scroll Position: 30
+Active Line: 49
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -69,7 +69,7 @@ Dialogue: 0,0:01:16.22,0:01:18.38,orig,v2,0,0,0,,{\k33}少{\k29}熬{\k49}夜{\k3
 Dialogue: 0,0:01:18.38,0:01:20.49,orig,v2,0,0,0,,{\k30}要{\k28}照{\k40}顾{\k9}{\k29}好{\k25}自{\k50}己
 Dialogue: 0,0:01:20.49,0:01:23.45,orig,v2,0,0,0,,{\k28}这{\k20}一{\k26}首{\k48}新{\k6}{\k46}歌{\k6}{\k35}唱{\k26}给{\k23}你{\k32}听
 Dialogue: 0,0:01:23.62,0:01:25.53,orig,v2,0,0,0,,{\k25}别{\k27}忘{\k25}记{\k25}查{\k27}收{\k26}关{\k36}心
-Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Refrain]
+Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Hook]
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v7]
 Dialogue: 0,0:01:25.69,0:01:28.72,orig,v1,0,0,0,,{\k23}你{\k34}想{\k26}要{\k27}去{\k42}边{\k9} {\k23}你{\k32}想{\k24}要{\k26}去{\k37}边
 Dialogue: 0,0:01:28.60,0:01:29.61,orig,x-bg,0,0,0,,{\k26}去{\k28}边{\k47}吖
@@ -79,7 +79,7 @@ Dialogue: 0,0:01:34.10,0:01:37.13,orig,v1,0,0,0,,{\k28}我{\k28}会{\k24}等{\k2
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v2]
 Dialogue: 0,0:01:37.13,0:01:40.39,orig,v1,0,0,0,,{\k29}快{\k33}乐{\k28}第{\k33}一{\k19}{\k31}无{\k19}{\k35}需{\k13}{\k25}道{\k61}理
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Instrumental]
-Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Bridge]
+Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Verse]
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v4]
 Dialogue: 0,0:01:58.02,0:01:58.81,orig,v2,0,0,0,,{\k27}谁{\k24}谁{\k28}谁
 Dialogue: 0,0:01:58.81,0:02:00.68,orig,v2,0,0,0,,{\k26}谁{\k21}还{\k14}在{\k21}耳{\k26}边{\k12}吵{\k12}吵{\k27}闹{\k28}闹
@@ -91,7 +91,7 @@ Dialogue: 0,0:02:07.41,0:02:09.28,orig,v1,0,0,0,,{\k18}难{\k13}得{\k26}休{\k3
 Dialogue: 0,0:02:09.28,0:02:11.41,orig,v1,0,0,0,,{\k13}反{\k13}正{\k14}回{\k11}复{\k28}消{\k30}息 {\k13}也{\k13}不{\k25}用 {\k17}那{\k12}么{\k24}快
 Dialogue: 0,0:02:11.41,0:02:13.50,orig,v1,0,0,0,,{\k25}喝{\k22}杯{\k27}咖{\k36}啡{\k8} {\k13}电{\k10}影{\k16}先{\k25}安{\k27}排
 Dialogue: 0,0:02:13.50,0:02:14.94,orig,v1,0,0,0,,{\k46}乖{\k52}乖{\k46}乖~
-Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Pre-Chorus]
+Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Bridge]
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v5]
 Dialogue: 0,0:02:14.74,0:02:19.57,orig,v2,0,0,0,,{\k25}相{\k41}隔{\k16}再{\k58}远{\k31}也{\k18}能{\k53}看{\k36}看{\k14}这{\k42}同{\k38}一{\k54}片{\k57}海
 Dialogue: 0,0:02:19.69,0:02:23.61,orig,v2,0,0,0,,{\k56}风{\k35}潮{\k16}湿{\k53}着 {\k33}把{\k19}烦{\k38}恼{\k42}都{\k51}吹{\k49}散
@@ -112,7 +112,7 @@ Dialogue: 0,0:03:00.59,0:03:02.67,orig,v2,0,0,0,,{\k32}少{\k21}熬{\k61}夜{\k3
 Dialogue: 0,0:03:02.71,0:03:04.76,orig,v2,0,0,0,,{\k27}要{\k34}照{\k37}顾{\k12}{\k21}好{\k26}自{\k48}己
 Dialogue: 0,0:03:04.83,0:03:07.64,orig,v2,0,0,0,,{\k27}这{\k25}一{\k26}首{\k47}新{\k4}{\k50}歌{\k4}{\k24}唱{\k28}给{\k27}你{\k19}听
 Dialogue: 0,0:03:07.96,0:03:10.02,orig,v2,0,0,0,,{\k26}别{\k24}忘{\k26}记{\k26}查{\k27}收{\k25}关{\k53}心
-Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Refrain]
+Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[Hook]
 Dialogue: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,Comment,[v7]
 Dialogue: 0,0:03:10.02,0:03:13.23,orig,v1,0,0,0,,{\k28}你{\k28}我{\k27}排{\k28}排{\k44}坐{\k3} {\k26}你{\k29}我{\k24}排{\k29}排{\k55}坐
 Dialogue: 0,0:03:12.90,0:03:13.69,orig,x-bg,0,0,0,,{\k28}坐{\k26}埋{\k25}滴
