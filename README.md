@@ -17,8 +17,7 @@ Repository_for_MiaowCham/
 ├── lyrics raw file/              # 歌词原始文件
 │   ├── apple syllable/             # 符合 Apple Syllable 规范的歌词（测试）
 │   ├── ass/                        # 使用 Aegisub 制作的 ass 格式字幕/歌词
-│   ├── lyricify syllable/          # 喵锵上传至 Lyricify 4 的歌词的备份目录
-│   └── ttml/                       # 用于 AMLL TTML DB 上传用的暂存目录，其中文件 *大概率* 符合 AMLL 的歌词规范
+│   └── lyricify syllable/          # 喵锵上传至 Lyricify 4 的歌词的备份目录
 ├── music/                        # 音乐文件
 ├── video/                        # 视频文件
 ├── LICENSE.CC0-1.0               # 项目许可证（CC0 1.0）
@@ -44,4 +43,3 @@ This means anyone can freely use the content of this repository  |  这意味着
 
 2. For files in the `./lyrics raw file` directory:  |  若要使用 `./lyrics raw file` 目录下的文件：  
    - Any form of copying, modification, or distribution is prohibited without explicit permission from the author (@MiaowCham).  |  未经作者(@MiaowCham)明确许可，禁止任何形式的复制、修改或分发。  
-   - Exception: Lyrics directly uploaded by the author @MiaowCham to [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) and *merged via approved PRs* will follow the CC0 1.0 License.  |  由其作者 @MiaowCham 直接上传至 [AMLL TTML DB](https://github.com/Steve-xmh/amll-ttml-db) 且 *审核通过，完成合并的 PR* 中包含的歌词则遵循 CC0 1.0 许可证。  
