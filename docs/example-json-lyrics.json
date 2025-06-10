@@ -1,72 +1,95 @@
+// JSON 传输用歌词格式
+// 基于 Apple 的 Apple Syllable TTML 制作
+// 该格式用于推进去 xml 化进程（bush
 {
-	"version" : 3.0,
-	"type" : "syllable",
-	"language" : "en",
-	"offset" : 0,
-	"metadata": {
+	// 文件头部声明部分，相当于 Apple Syllable TTML 的 <head> 标签
+	"version" : 3.1, // JSON 传输用歌词格式的版本
+	"timing" : "syllable", // 歌词的类型可以是"syllable"、"word"或"line"
+	"lang" : "zh-CN", // 歌词的主要语言可以是 "zh-CN"、"zh-TW"、"ja"、"en" 等等
+	"offset" : 0, // 毫秒偏移量，用于与音频同步
+	"metadata": { // 关于歌曲的元数据
 		"title": "Example Song",
 		"artist": "Example Artist",
 		"album": "Example Album",
-		"agents" :{
-			"v1": {"name": "singer", "type": "person"},
-			"v2": {"name": "singer", "type": "person"}
-		},		
-		"platforms": {
+		"agents" :{ // 关于参与歌曲的艺术家的信息
+			// 类型可以是"person"、"group"或"other"
+			"v1": {"name": "singer", "type": "person"}, // v1 是主唱，类型为"person"
+			"v2": {"type": "group"}, // v2 是一组艺术家，类型为"group"
+			"v3": {"type": "other"} // v3 是另一种类型的艺术家，可能为特殊情况，类型为"other"
+		},
+		"platforms": { // 歌曲可用的平台
 			"qqmusic": "example-qqmusic-id",
 			"spotify": [{"region": "global", "id": "example-spotify-id"},{"region": "hant", "id": "example-spotify-hant-id"}]
 		}
 	},
-	"body": [
+	"body": [ // 歌词的主体部分，包含歌曲部分及其各自的歌词，等同于 Apple Syllable TTML 的 <body> 标签
 		{
-			"song-part": "Verse",
-			"start": 0.0, "duration": 15.0, "agent": "v1",
-			"lyrics": [
+			"song-part": "Verse", // 歌曲的部分，例如 Verse、Chorus、Bridge，"song-part" 元素不是必需的
+			"start": 0.000, "end": 15.000, "agent": "v1", // 注意：本格式规范使用的时间码应使用同步多媒体集成语言（SMIL）表示，可提供完整或部分时钟值：hh:mm:ss.sss（时:分:秒.毫秒）其中，小时和毫秒可不提供。
+			// 以上为该数组的基础信息申明，包括开始时间、结束时间和演唱者。演唱者不是必须的
+			// 分段数组相当于 Apple Syllable TTML 的 <div> 标签
+			"lyrics": [ // lyrics 数组规定了一行歌词的信息，相当于 Apple Syllable TTML 的 <p> 标签
 				{
-					"line" : "L1", "start": 0.0, "duration": 5.0, "agent": "v1",
-					"syllables": [
-						{"text": "This", "start": 0.0, "duration": 1.0, "has-space": 1},
-						{"text": "is", "start": 1.0, "duration": 1.0, "has-space": 1},
-						{"text": "the", "start": 2.0, "duration": 1.0, "has-space": 1},
-						{"text": "first", "start": 3.0, "duration": 1.0, "has-space": 1},
-						{"text": "line", "start": 4.0, "duration": 1.0}
+					"line" : "L1", "start": 0.000, "end": 5.000, "agent": "v1",
+					// lyrics 表示的歌词行必须拥有以下信息
+					// "line" 是一个唯一的标识符，记录行数信息；"start" 和 "end" 分别表示该行歌词的开始和结束时间
+					// "agent" 是演唱者的标识符，必须在 metadata.agents 中定义
+					// "lang" 信息不是必须的。"lang" 是该行歌词的语言，必须是 ISO 639-1 或 ISO 639-2 代码。若不使用 "lang" 属性，则默认为文档顶部声明的语言
+					"x-roma": {"lang": "yue"},// "x-roma" 是一个可选的属性，表示该行歌词的音译的类型，必须包含 "lang" 属性。
+					"syllables": [ // syllables 数组包含了该行歌词的音节信息。"word" 和 "syllable" 类型的歌词必须包含 syllables 数组
+					// "syllables" 数组中的每个元素表示一个音节，相当于 Apple Syllable TTML 的 <span> 标签
+						{"text": "这", "start": 0.000, "end": 1.000, "x-roma":"ze2"},
+						// "text" 是音节的文本内容，"start" 和 "end" 分别表示音节的开始和结束时间
+						// "x-roma" 是一个可选的属性，标记音节的音译
+						{"text": "是", "start": 1.000, "end": 2.000, "x-roma":"si6"},
+						{"text": "第", "start": 2.000, "end": 3.000, "x-roma":"dai6"},
+						{"text": "一", "start": 3.000, "end": 4.000, "x-roma":"jat1"},
+						{"text": "行", "start": 4.000, "end": 5.000, "x-roma":"hong4"}
 					],
-					"x-trans" : {"text": "这是第一行歌词的翻译"},
-					"x-roma" : {"text": "这是第一行歌词的音译"}
+					"x-trans" : {"lang":"en", "text": "this is the first line"}
+					// "x-trans" 是一个可选的属性，表示该行歌词的翻译，必须包含 "lang" 和 "text" 属性
+					// "lang" 是翻译的语言，必须是 ISO 639-1 或 ISO 639-2 代码
+					// "text" 是翻译的文本内容
 				},
 				{
-					"line" : "L2", "start": 5.0, "duration": 10.0, "agent": "v2", "type" : "line",
-					"text": "This is the second line, sung by a different artist."
+					"line" : "L2", "start": 5.000, "end": 10.000, "agent": "v2", "timing" : "line",
+					// 这行歌词使用了独立的 "timing" 属性，表示这是一个 "line" 类型的歌词
+					// 若 "type" 属性未指定，则默认为文档最顶部声明的类型
+					"text": "This is the second line, sung by a different artist", // "line" 类型的歌词需直接使用 "text" 属性
+					"x-trans" : {"lang":"zh-CN", "text": "这是第二行，由一位不同的艺术家演唱"}
 				}
 			]
 		},
 		{
 			"song-part": "Chorus",
-			"start": 10.0, "duration": 15.0, "agent": "v2",
-			"lyrics": [
+			"start": 10.000, "end": 16.000, "agent": "v2",
+			// 以上为该数组的基础信息申明，包括开始时间、结束时间和演唱者。演唱者不是必须的
+			"lyrics": [ // 该 "lyrics" 数组包含了一句日语歌词和其附属的英语背景行
 				{
-					"line" : "L3", "start": 10.0, "duration": 15.0, "agent": "v2",
+					"line" : "L3", "start": 10.000, "end": 16.000, "agent": "v2", "lang": "ja", 
+					// 这行歌词使用了 "lang" 属性，表示这是日语歌词
+					// "lyrics" 数组开头声明的时间范围需要包括主歌词和附属背景行
 					"syllables": [
-						{"text": "And", "start": 10.0, "duration": 1.0, "has-space": 1},
-						{"text": "this", "start": 11.0, "duration": 1.0, "has-space": 1},
-						{"text": "is", "start": 12.0, "duration": 1.0, "has-space": 1},
-						{"text": "the", "start": 13.0, "duration": 1.0, "has-space": 1},
-						{"text": "third", "start": 14.0, "duration": 1.0, "has-space": 1},
-						{"text": "line", "start": 15.0, "duration": 1.0}
+						{"text": "ここ", "start": 10.000, "end": 11.000, "x-roma":"koko"},
+						{"text": "は", "start": 11.000, "end": 12.000, "x-roma":"wa"},
+						{"text": "三", "start": 12.000, "end": 13.000, "x-roma":"san"},
+						{"text": "行目", "start": 13.000, "end": 14.000, "x-roma":"gyōme"},
+						{"text": "の", "start": 14.000, "end": 15.000, "x-roma":"no"},
+						{"text": "歌詞", "start": 15.000, "end": 16.000, "x-roma":"kashi"}
 					],
-					"x-trans" : {"text": "这是第三行歌词的翻译"},
-					"x-roma" : {"text": "这是第三行歌词的音译"},
-					"x-bg" : {
-						"start": 10.0,"duration": 15.0,
+					"x-trans" : {"lang":"zh-CN", "text": "这是第三行歌词"},
+					"x-bg" : { // "x-bg" 是一个可选的属性，表示该行歌词附属的的背景行
+					// 注意：如果背景行开始时间在主歌词之前，需要将 "x-bg" 属性放在主歌词的 "syllables" 数组前
+						"start": 11.000,"end": 16.000, "lang": "en", // "x-bg" 属性的开头声明不是必须的，但还是建议包含一些基础信息
 						"syllables": [
-							{"text": "And", "start": 10.0, "duration": 1.0, "has-space": 1},
-							{"text": "this", "start": 11.0, "duration": 1.0, "has-space": 1},
-							{"text": "is", "start": 12.0, "duration": 1.0, "has-space": 1},
-							{"text": "the", "start": 13.0, "duration": 1.0, "has-space": 1},
-							{"text": "bg", "start": 14.0, "duration": 1.0, "has-space": 1},
-							{"text": "line", "start": 15.0, "duration": 1.0}
+							{"text": "And", "start": 11.000, "end": 12.000, "has-space": 1}, // "has-space" 是一个可选的属性，表示该音节后是否有空格
+							{"text": "this", "start": 12.000, "end": 13.000, "has-space": 1},
+							{"text": "is", "start": 13.000, "end": 14.000, "has-space": 1},
+							{"text": "the", "start": 14.000, "end": 15.000, "has-space": 1},
+							{"text": "bg", "start": 15.000, "end": 16.000, "has-space": 1},
+							{"text": "line", "start": 16.000, "end": 17.000}
 						],
-						"x-trans" : {"text": "这是背景音节的翻译"},
-						"x-roma" : {"text": "这是背景音节的音译"}
+						"x-trans" : {"lang":"zh-CN", "text": "这是背景行"}
 					}
 				}
 			]
