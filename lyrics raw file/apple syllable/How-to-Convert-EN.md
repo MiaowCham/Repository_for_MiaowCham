@@ -1,4 +1,4 @@
-# How to Convert AMLL-TTML to Apple Syllable
+# How to Convert AMLL TTML to Apple Syllable
 
 ###### [简体中文](./How-to-Convert.md) / English
 
