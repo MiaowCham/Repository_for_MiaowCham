@@ -42,9 +42,14 @@ This repository uses the CC0 1.0 License  |  本仓库使用 CC0 1.0 许可证
 This means anyone can freely use the content of this repository  |  这意味着任何人都可以随意使用该仓库的内容  
 
 ### Exceptions  |  特例  
-1. Contents listed in the attribution table are excluded.  |  借物表包含的内容除外。  
-   - Contents within the attribution table follow their original license/copyright statement.  |  借物表内包含的内容遵循其原始许可证/版权声明。  
-   - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.  |  若有版权纠纷/异议请直接联系 @MiaowCham 或者提交 issues 请求删除。  
+i. Contents listed in the attribution table are excluded.
+i. 借物表包含的内容除外。  
+   - Contents within the attribution table follow their original license/copyright statement.
+   - 借物表内包含的内容遵循其原始许可证/版权声明。  
+   - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.
+   - 若有版权纠纷/异议请直接联系 @MiaowCham 或者提交 issues 请求删除。  
 
-2. For files in the `./lyrics raw file` directory:  |  若要使用 `./lyrics raw file` 目录下的文件：  
-   - Any form of copying, modification, or distribution is prohibited without explicit permission from the author (@MiaowCham).  |  未经作者(@MiaowCham)明确许可，禁止任何形式的复制、修改或分发。  
+ii. For files in the `./lyrics raw file` directory:
+ii. 若要使用 `./lyrics raw file` 目录下的文件：  
+   - Please clearly label the author(@MiaowCham) when using it.
+   - 请在使用时明确标记作者(@MiaowCham)
