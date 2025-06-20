@@ -74,10 +74,10 @@
 ATT 输出的 TTML 在 `<p>` 标签中，行数和演唱者标记是和 Apple 官方歌词相反的，可以给他调转一下。当然这不是必须的
 
 **提示词：**
-
+```
 帮我把 p 标签里的 ttm:agent="v1" 和 itunes:key="L22" 调个位置，
 变成 itunes:key="L22" ttm:agent="v1"
-
+```
 
 ### 翻译与制作人
 Apple 在 WWDC25 上发布的新版 Apple Music 已经支持翻译功能，但与 ATT 使用的翻译格式并不相同
@@ -105,7 +105,7 @@ Apple 在 WWDC25 上发布的新版 Apple Music 已经支持翻译功能，但�
 ---
 
 **提示词：**
-
+```
 现在这个ttml歌词字幕的句子翻译在 body > div > p > span ttm:role="translation" 里，
 我需要你帮我把它从这个位置移动到 head > metadata > iTunesMetadata > translations > translation > text 里
 格式为：
@@ -113,7 +113,7 @@ Apple 在 WWDC25 上发布的新版 Apple Music 已经支持翻译功能，但�
 例如：
 `<text for="L1">[你手动复制的那一句翻译]</text>`
 请直接生成修改，不要使用转换脚本
-
+```
 > [!note]  
 如果你的歌词中包含 “背景人声”（x-bg），该提示词不能帮你进行转换，你需要手动按照 `主歌词 (背景人声)` 的格式进行记录。括号和主歌词之间有一个空格  
 如果背景人声在主歌词前面，则应该使用 `(背景人声) 主歌词` 的格式
@@ -133,11 +133,11 @@ Apple 会根据歌曲结构将 `<div>` 分段。手动分段是很麻烦的事�
     `三Z-Studio, HOYO-MiX, 雷雨心 - 制服·剪刀·鲨鱼尾_Format.ttml`
 
 **提示词：**
-
+```
 你可以注意到我在 div 标签中添加了一个 itunes:songPart，
 你帮我根据 #file:lyrics.txt 这个词本对歌词进行分段，每个`#`标记的音乐结构都需要使用独立的 div 标签，需要注意开始和结束时间
 具体效果可以参考 #file:三Z-Studio, HOYO-MiX, 雷雨心 - 制服·剪刀·鲨鱼尾_Format.ttml 
-
+```
 > [!note]  
 `#file:xxx` 是 Copilot 的引用功能，输入 `#` 后选定对应文件。请确保其显示为**蓝底蓝字**
 
