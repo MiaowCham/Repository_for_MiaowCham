@@ -3,20 +3,22 @@
 若有问题请直接联系@MiaowCham
 
 ## File structure | 文件结构
-```
-Repository_for_MiaowCham/
+<pre><code>Repository_for_MiaowCham/
 ├── docs                          # 文档文件夹
 │   ├── log/                        # 日志文件夹，记录项目相关信息
 │   ├── Lyric Booklets/             # 数字歌词本。路径下的文件内包含歌曲结构，原文及中文翻译
 │   ├── Translation comparison/     # 不同歌词翻译版本对比资料
 │   ├── example-json-lyrics.json    # 基于 Apple Syllable 编写的 json 格式歌词/传输协议
-│   └── LRC - Super_v3.md           # LRC-Super 格式的第三版规范说明
+│   ├── Lyricify_Syllable_Next.md   # Lyricify Syllable Next 格式规范说明
+│   └── Lyrics_Next.md              # lyrics Next 格式规范说明
 ├── images/                       # 图片资源
 │   ├── DeepSeek.webp               # DeepSeek logo 
 │   ├── Lyricify.ico                # Lyricify 图标
 │   └── Spotify.ico                 # Spotify 图标
 ├── lyrics raw file/              # 歌词原始文件
 │   ├── apple syllable/             # 符合 Apple Syllable 规范的歌词（测试）*
+│   │   ├── How-to-Convert.md        # 将 AMLL TTML 转换为 Apple Syllable 的说明文档（中文）
+│   │   └── How-to-Convert-EN.ttml   # Documentation for Convert AMLL TTML to Apple Syllable (English)
 │   ├── ass/                        # 使用 Aegisub 制作的 ass 格式字幕/歌词
 │   └── lyricify syllable/          # 喵锵上传至 Lyricify 4 的歌词的备份目录
 ├── music/                        # 音乐文件
@@ -28,7 +30,7 @@ Repository_for_MiaowCham/
 * 经实验验证，"./lyrics raw file/apple syllable/" 下的歌词文件可被 Apple Music 网页版正确识别，
   感兴趣者可自行通过浏览器开发工具(DevTool)对 Apple Music 网页版缓存歌词进行替换体验。
   使用 Beta 版(beta.music.apple.com)以查看翻译。
-```
+</code></pre>
 
 ## Attribution Table | 借物表
 |文件|对应来源|原物直链|
