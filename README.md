@@ -3,7 +3,8 @@
 若有问题请直接联系@MiaowCham
 
 ## File structure | 文件结构
-<pre><code>Repository_for_MiaowCham/
+```
+Repository_for_MiaowCham/
 ├── docs                          # 文档文件夹
 │   ├── log/                        # 日志文件夹，记录项目相关信息
 │   ├── Lyric Booklets/             # 数字歌词本。路径下的文件内包含歌曲结构，原文及中文翻译
@@ -30,7 +31,7 @@
 * 经实验验证，"./lyrics raw file/apple syllable/" 下的歌词文件可被 Apple Music 网页版正确识别，
   感兴趣者可自行通过浏览器开发工具(DevTool)对 Apple Music 网页版缓存歌词进行替换体验。
   使用 Beta 版(beta.music.apple.com)以查看翻译。
-</code></pre>
+```
 
 ## Attribution Table | 借物表
 |文件|对应来源|原物直链|
