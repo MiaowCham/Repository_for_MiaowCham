@@ -4,71 +4,30 @@
 > 仅供娱乐，当然如果你的软件想使用这个格式是完全可以的（真的会有人用吗？）
 
 这玩意原本叫 Lyrics Next（兼容版），~~因为是拿 Lyrics Next 文档改的(bush~~  
-但是该版本的 Lyrics Next 彻底融合了 Lyricify Syllable 的特性
+但是该版本的 Lyrics Next 彻底融合了 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 的特性
 
 所以 Lyrics Next（兼容版）正式名称为 **Lyricify Syllable Next** (`.lysn`)  
-当然 Lyricify Syllable Next 歌词文件也可以直接使用 `.lys` 后缀，因为它理论上属于 Lyricify Syllable 的一种扩展格式  
+当然 Lyricify Syllable Next 歌词文件也可以直接使用 `.lys` 后缀，因为它理论上属于 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 的一种扩展格式  
 
 带 * 的条目为非强制要求
 
 ## 更改
-Lyricify Syllable Next 是基于 Lyricify Syllable 的改进版本，和 Lyrics Next 版本相比，Lyricify Syllable Next 进行了以下更改：  
+Lyricify Syllable Next 是基于 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 的改进版本，和 Lyrics Next 版本相比，Lyricify Syllable Next 进行了以下更改：  
 
-**歌词的时间轴标记方式完全使用 Lyricify Syllable 的方式**
+**歌词的时间轴标记方式完全使用 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 的方式**
 - 统一时间轴单位为毫秒（原版的 `start` 使用同步多媒体集成语言(SMIL)表示）
-- `agent` 信息兼容 Lyricify Syllable 的歌词行属性 `property` 标记
+- `agent` 信息兼容 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 的歌词行属性 `property` 标记
 
-## 规范用语
-在 Lyricify Syllable Next 中，歌词行行首被 `[]` 包裹的内容被称为 `标签`  
-后续内容被称为 `正文` `主歌词`  
-正文中被 `()` 包裹的内容被称为 `时间(轴)标签` 或 `时间(轴)标记`  
-根据 `agent` 标签的信息进行的实际歌词排版称为 `对唱视图`  
-左对齐且一般为主唱的歌词为 `左视图` `主视图` `左对唱` `主对唱`  
-右对齐且一般为第二位歌手的歌词为 `右视图` `副视图` `右对唱` `副对唱`  
-`agent` 带有 `bg`字样且位于正文下方，字体较小，一般用于背景声的歌词为 `背景人声` `背景行` `bg 行`
-凡事使用时间轴标记的内容均可称为 `项目`，包括行，字，词或音节
+相较于 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) 原版，做出了以下更改：
+- `property` 支持使用 `agent` 填写
+- `property` 前面加入了整行的时间轴信息
+- 添加了内置翻译/音译方案
 
 ## 头部信息 *
-歌词头部可选的包含歌词相关信息，如：  
-|标签|含义|
-|-|-|
-[timing:syllable]|项目类型  `line` 为逐行，`word` `syllable` 为逐字/音节
-[ti:On the Journey]|歌曲标题
-[ar:HOYO-MiX, 魏晨]|歌手名
-[ar:Nea]|同上
-[al:On the Journey]|专辑名
-[source:QQMusic]|歌词源
-[by:MiaowCham]|歌词制作者
-[offset:0]|歌曲偏移量（单位毫秒）
-[v1:魏晨]|用于表明演唱者 ID 所代表的歌手
-[v2:Nea]|同上
-[qqmusic-mid:0049lelQ3EY4jN]|歌曲对应平台及平台 ID，下同
-[ncmid:2699981246]
-[spotifyid:0HqjLk8hVH78mkgY6Z2eX6]
 
-若一个标签有多个内容，可以用 `,` 分割或者使用多个标签表示
+同 Lyricify Syllable，详见 [Lyricify Syllable 格式规范](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83)
 
 *注意：该内容可以不填，不要包含重复标签。(重复标签指完全相同的标签)*  
-
-### 关于 ***歌曲对应平台及平台 ID***，推荐使用以下标准 *
-```
-[对应标签-额外信息（可选）:ID]
-```
-|平台|对应标签|额外信息
-|-|-|-|
-网易云|ncmid
-QQ音乐|qqmusic|mid/id
-酷狗音乐|kugouid
-Spotify|spotifyid|地区
-Apple Music|applemusic|地区
-
-关于 Apple Music 和 Spotify 的地区信息，一般遵循以下标准：
-
-- 除去隔壁特殊区外的总区，使用英文 - `global` 或直接使用语言代号 `en`
-- 使用简体中文的中国区 - `hans` 或直接使用地区代号 `cn`
-- 使用繁体中文的港澳台地区 - `hant` 或直接使用地区代号 `hk` `tw`
-- 使用日语的日区 - `jp`
-- 使用韩语的韩区 - `kr`
 
 ## 歌词
 Lyricify Syllable Next 歌词的标准格式为：
@@ -82,17 +41,17 @@ Lyricify Syllable Next 歌词的标准格式为：
 - 时间戳的是大于零的整数，单位是毫秒 (ms)。  
 
 关于 `agent` 信息，Lyricify Syllable Next 要求能够兼容 Lyricify Syllable 的 `property` 属性，具体如下：
-| 属性 | 背景人声 | 对唱视图 |
-| :-: | :-: | :-: |
-| 0 | 未设置 | 未设置 |
-| 1 | 未设置 | 左 |
-| 2 | 未设置 | 右 |
-| 3 | 否 | 未设置 |
-| 4 | 否 | 左 |
-| 5 | 否 | 右 |
-| 6 | 是 | 未设置 |
-| 7 | 是 | 左 |
-| 8 | 是 | 右 |
+| 属性  | 背景人声 | 对唱视图 |
+| :---: | :------: | :------: |
+|   0   |  未设置  |  未设置  |
+|   1   |  未设置  |    左    |
+|   2   |  未设置  |    右    |
+|   3   |    否    |  未设置  |
+|   4   |    否    |    左    |
+|   5   |    否    |    右    |
+|   6   |    是    |  未设置  |
+|   7   |    是    |    左    |
+|   8   |    是    |    右    |
 
 ### **注意和示例：**  
 即使背景人声的起始时间在主句前面，背景人声也得在主句的后一行，如：
@@ -116,14 +75,9 @@ Lyricify Syllable Next 支持多种翻译/音译格式
 支持类似 LRC 的免排序歌词行的效果，只需要保证时间轴对应，无需保证一定位于原歌词行下方，即可完成翻译/音译对应
 ```
 [34390,,ts]传奇并非天成          # 不填写 duration 信息
-[39110,1010,ts]但由功迹铸就     # 完整版（推荐）
-[40800,835,roma]音译           # 音译
+[39110,1010,ts]但由功迹铸就      # 完整版（推荐）
+[40800,835,roma]音译             # 音译
 ```
-
-### 外置 lrc 翻译/音译（传统）
-使用独立的 lrc 翻译/音译文件。需要与原文歌词保持逐句对应  
-歌词解析应当保留模糊余地，使不完全对应的翻译也能被识别  
-但歌词制作者不应当制作/提供有无法对应行的翻译/音译文件
 
 ### 对应 LRC 翻译/音译
 Lyricify Syllable Next 需要将 **拥有相同开始时间** 且 **行数更靠后的 LRC 格式歌词** 视为翻译  
@@ -135,35 +89,11 @@ Lyricify Syllable Next 需要将 **拥有相同开始时间** 且 **行数更靠
 [34.390]传奇并非天成
 ```
 
-### 对应行翻译/音译（不推荐）*
-该方案使用行数对应的方式标记翻译/音译，优点是无需保证时间轴对应，缺点是必须保证翻译/音译行位于原歌词行下方，且需要严格按照规范排版，不得随意空行/删除空行，否则可能导致对应错误。
-
->这个方案不是强制要求，且不推荐使用。  
-~~不过如果只需要把翻译/音译填到对应的地方，不会为了时间轴的对应而弄的焦头烂额还是很不错的 (bush~~
-
-歌词行下方直接输入翻译/音译（翻译必须和原句一一对应）。使用：
-```
-[标签]原文
-翻译
-音译
-```
-这样的顺序，只有翻译时可以省略音译行，但如果只有音译没有翻译则必须将翻译行空出来
-
-- 第一行歌词是有翻译有音译的歌词
-- 第二行歌词是有翻译无音译的歌词（音译行被省略）
-- 第三行歌词是无翻译有音译的歌词（无翻译的行也需要空出翻译行）
-
-```
-[34390,3660,1]Legends (34390,1120)aren't (35510,630)born (36140,660)that (36800,600)way(37400,650)
-传奇并非天成
-音译
-[39110,1010,2]But (39110,140)by (39250,250)deeds(39500,620)
-但由功迹铸就
-[40800,3750,1]Bloodlines (40800,1280)denotes (42080,1140)nothing(43220,1330)
-
-音译
-```
+### 外置 lrc 翻译/音译（传统）
+使用独立的 lrc 翻译/音译文件。需要与原文歌词保持逐句对应  
+歌词解析应当保留模糊余地，使不完全对应的翻译也能被识别  
+但歌词制作者不应当制作/提供有无法对应行的翻译/音译文件
 
 ## 兼容 *
-顾名思义，Lyricify Syllable Next 兼容 Lyricify Syllable  
+顾名思义，Lyricify Syllable Next 兼容 [Lyricify Syllable](https://github.com/WXRIW/Lyricify-App/blob/main/docs/Lyricify%204/Lyrics.md#lyricify-syllable-%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83) (无法反向兼容)  
 也许更加兼容 QRC (Lyricify 标准) ，因为长得很像，只比QRC多了个 `agent` 信息
