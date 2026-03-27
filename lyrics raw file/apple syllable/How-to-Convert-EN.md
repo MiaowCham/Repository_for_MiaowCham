@@ -77,10 +77,13 @@ ATT's TTML has reversed line/vocalist tags in `<p>`. Swap them (optional):
 ```prompt
 Swap the positions of ttm:agent="v1" and itunes:key="L22" in all <p> tags,
 changing them to itunes:key="L22" ttm:agent="v1"
+The above is just an example - please modify all <p> tags.
 ```
 
-### Translation & Songwriter Credits
-Apple Music's WWDC25 update supports translations but uses a different format than ATT.
+### Pronunciation, Translation & Songwriter Credits
+Apple Music's WWDC25 update supports pronunciations and translations but uses a different format than ATT.
+>[!note]
+>ATT's character-level romanization format is correct and needs no modification, but line-level romanization differs. You can refer to the translation plan below for conversion.
 
 If translations exist in ATT, convert them. Always add songwriter credits:
 - Add new `<iTunesMetadata>` tag in head > metadata
@@ -113,11 +116,22 @@ Example:
 Generate modified output directly - no conversion scripts.
 ```
 
-> [!note]  
-> For lyrics with backing vocals (x-bg):  
-> - Format as `Main vocals (Backing vocals)` with space before parentheses  
-> - If backing vocals precede main: `(Backing vocals) Main vocals`  
-> *This prompt won't handle backing vocals - manual adjustment required*
+#### Backing Vocals in Translations
+If your lyrics contain backing vocals (x-bg), this prompt cannot handle the conversion. You must manually format them as `Main vocals（Backing vocals）` using full-width parentheses.  
+If backing vocals precede main vocals: `（Backing vocals）Main vocals`
+
+In subsequent updates, Apple supported using `<span>` tags to distinguish backing vocals from main vocals in translations:
+```xml
+<text for="L14">
+    <span 
+        xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+        ttm:role="x-bg" xmlns="http://www.w3.org/ns/ttml">
+        (Holy bad morning)
+    </span>
+    Completely crazy
+</text>
+```
+This also applies to backing vocals in pronunciation.
 
 ### Song Structure Segmentation
 Apple segments lyrics into `<div>` by song structure. Use Copilot to automate:
