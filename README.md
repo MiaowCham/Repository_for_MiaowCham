@@ -27,11 +27,11 @@ Repository_for_MiaowCham/
 ├── LICENSE.CC0-1.0               # 项目许可证（CC0 1.0）
 ├── LICENSE                       # 项目许可证
 └── README.md                     # 项目说明文档
-
-* 经实验验证，"./lyrics raw file/apple syllable/" 下的歌词文件可被 Apple Music 网页版正确识别，
-  感兴趣者可自行通过浏览器开发工具(DevTool)对 Apple Music 网页版缓存歌词进行替换体验。
-  使用 Beta 版(beta.music.apple.com)以查看翻译。
 ```
+
+> [!note]
+  经实验验证，"./lyrics raw file/apple syllable/" 下的歌词文件可被 Apple Music 网页版正确识别  
+  感兴趣者可自行通过浏览器开发工具(DevTool)对 Apple Music 网页版缓存歌词进行替换体验。
 
 ## Attribution Table | 借物表
 |文件|对应来源|原物直链|
@@ -49,10 +49,14 @@ I. Contents listed in the attribution table are excluded.
 I. 借物表包含的内容除外。  
    - Contents within the attribution table follow their original license/copyright statement.
    - 借物表内包含的内容遵循其原始许可证/版权声明。  
-   - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.
-   - 若有版权纠纷/异议请直接联系 @MiaowCham 或者提交 issues 请求删除。  
+   - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue/PR to request removal.
+   - 若有版权纠纷/异议请直接联系 @MiaowCham 或者提交 issues/PR 请求删除。  
 
 II. For files in the `./lyrics raw file` directory:  
 II. 若要使用 `./lyrics raw file` 目录下的文件：  
-   - Please clearly label the author(@MiaowCham) when using it.
-   - 请在使用时明确标记作者(@MiaowCham)
+   - The files in this directory (and its subdirectories) are licensed under the MIT License.
+   - 该目录（及其子目录）下的文件基于 MIT License 进行授权。
+   - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.
+   - 根据 MIT License 的要求，请在使用时明确标记作者(@MiaowCham)和版权声明。
+   - Note: The copyright of the lyric content belongs to the original author. Please comply with relevant laws and regulations when using it, and respect the rights of the original author.
+   - 注意：歌词内容的著作权归原作者所有，使用时请遵守相关法律法规，并尊重原作者的权益。

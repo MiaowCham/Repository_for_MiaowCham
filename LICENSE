@@ -14,7 +14,9 @@ II. Exceptions  |  特例
       - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.
       - 若有版权纠纷/异议请直接联系 @MiaowCham 或者提交 issues 请求删除。  
 
-   2. For files in the `./lyrics raw file` directory:
-   2. 若要使用 `./lyrics raw file` 目录下的文件：  
-      - Please clearly label the author(@MiaowCham) when using it.
-      - 请在使用时明确标记作者(@MiaowCham)
+   2. About the `./lyrics raw file` directory:
+   2. 关于 `./lyrics raw file` 目录下的文件：  
+      - The files in this directory (and its subdirectories) are licensed under the MIT License.
+      - 该目录（及其子目录）下的文件基于 MIT License 进行授权。
+      - For any copyright disputes/objections, please directly contact @MiaowCham or submit an issue to request removal.
+      - 根据 MIT License 的要求，请在使用时明确标记作者(@MiaowCham)和版权声明。
