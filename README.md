@@ -24,6 +24,7 @@ Repository_for_MiaowCham/
 │   └── lyricify syllable/          # 喵锵上传至 Lyricify 4 的歌词的备份目录
 ├── music/                        # 音乐文件
 ├── video/                        # 视频文件
+├── project/                      # 临时项目文件
 ├── LICENSE.CC0-1.0               # 项目许可证（CC0 1.0）
 ├── LICENSE                       # 项目许可证
 └── README.md                     # 项目说明文档
