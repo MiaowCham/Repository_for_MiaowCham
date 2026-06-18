@@ -122,35 +122,6 @@
                             <span begin="51.938" end="52.793" xmlns="http://www.w3.org/ns/ttml">utai</span>
                             <span begin="52.793" end="54.108" xmlns="http://www.w3.org/ns/ttml">mashou</span>
                         </text>
-                        <text for="L11">
-                            <span begin="54.211" end="54.452" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="54.452" end="54.681" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="54.681" end="54.934" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="54.934" end="55.791" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="55.791" end="56.304" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L12">
-                            <span begin="56.304" end="56.492" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="56.492" end="56.733" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="56.733" end="57.525" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="57.525" end="58.115" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L13">
-                            <span begin="58.115" end="58.312" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="58.312" end="58.565" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="58.565" end="59.293" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="59.293" end="1:00.004" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
                         <text for="L14">
                             <span begin="1:00.004" end="1:00.324" xmlns="http://www.w3.org/ns/ttml">saa</span>
                             <space/>
@@ -160,35 +131,6 @@
                             <space/>
                             <span begin="1:00.803" end="1:01.567" xmlns="http://www.w3.org/ns/ttml">sama</span>
                             <span begin="1:01.567" end="1:02.330" xmlns="http://www.w3.org/ns/ttml">shite</span>
-                        </text>
-                        <text for="L15">
-                            <span begin="1:01.499" end="1:01.732" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="1:01.732" end="1:01.961" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="1:01.961" end="1:02.213" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="1:02.213" end="1:03.143" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="1:03.143" end="1:03.534" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L16">
-                            <span begin="1:03.534" end="1:03.763" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="1:03.763" end="1:03.995" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="1:03.995" end="1:04.895" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="1:04.895" end="1:05.325" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L17">
-                            <span begin="1:05.325" end="1:05.545" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="1:05.545" end="1:05.835" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="1:05.835" end="1:06.605" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="1:06.605" end="1:07.162" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
                         </text>
                         <text for="L18">
                             <span begin="1:07.211" end="1:07.917" xmlns="http://www.w3.org/ns/ttml">haruka</span>
@@ -281,15 +223,6 @@
                             <span begin="1:44.631" end="1:46.013" xmlns="http://www.w3.org/ns/ttml">shimau</span>
                         </text>
                         <text for="L27">
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="1:47.685" end="1:48.168">(One</span>
-                                <space/>
-                                <span begin="1:48.168" end="1:48.645">two</span>
-                                <space/>
-                                <span begin="1:48.645" end="1:48.975">three)</span>
-                            </span>
                             <span begin="1:48.847" end="1:49.726" xmlns="http://www.w3.org/ns/ttml">taiyou</span>
                             <space/>
                             <span begin="1:49.726" end="1:49.949" xmlns="http://www.w3.org/ns/ttml">ni</span>
@@ -334,35 +267,6 @@
                             <span begin="2:01.038" end="2:01.906" xmlns="http://www.w3.org/ns/ttml">utai</span>
                             <span begin="2:01.906" end="2:03.128" xmlns="http://www.w3.org/ns/ttml">mashou</span>
                         </text>
-                        <text for="L31">
-                            <span begin="2:03.364" end="2:03.613" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="2:03.613" end="2:03.812" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:03.812" end="2:04.062" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:04.062" end="2:04.922" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:04.922" end="2:05.372" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L32">
-                            <span begin="2:05.372" end="2:05.613" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:05.613" end="2:05.854" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:05.854" end="2:06.751" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:06.751" end="2:07.222" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L33">
-                            <span begin="2:07.222" end="2:07.440" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:07.440" end="2:07.683" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:07.683" end="2:08.553" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:08.553" end="2:08.857" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
                         <text for="L34">
                             <span begin="2:08.984" end="2:09.463" xmlns="http://www.w3.org/ns/ttml">saa</span>
                             <space/>
@@ -373,134 +277,12 @@
                             <span begin="2:09.933" end="2:10.438" xmlns="http://www.w3.org/ns/ttml">sama</span>
                             <span begin="2:10.438" end="2:11.344" xmlns="http://www.w3.org/ns/ttml">shite</span>
                         </text>
-                        <text for="L35">
-                            <span begin="2:10.700" end="2:10.941" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="2:10.941" end="2:11.140" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:11.140" end="2:11.359" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:11.359" end="2:12.221" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:12.221" end="2:12.622" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L36">
-                            <span begin="2:12.622" end="2:12.851" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:12.851" end="2:13.089" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:13.089" end="2:14.050" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:14.050" end="2:14.459" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L37">
-                            <span begin="2:14.459" end="2:14.688" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="2:14.688" end="2:14.929" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="2:14.929" end="2:15.849" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="2:15.849" end="2:16.238" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
                         <text for="L38">
                             <span begin="2:16.293" end="2:16.948" xmlns="http://www.w3.org/ns/ttml">haruka</span>
                             <space/>
                             <span begin="2:16.948" end="2:18.309" xmlns="http://www.w3.org/ns/ttml">shintenchi</span>
                             <space/>
                             <span begin="2:18.309" end="2:18.849" xmlns="http://www.w3.org/ns/ttml">e</span>
-                        </text>
-                        <text for="L39">
-                            <span begin="2:18.504" end="2:18.965" xmlns="http://www.w3.org/ns/ttml">Singing</span>
-                            <space/>
-                            <span begin="2:18.965" end="2:19.451" xmlns="http://www.w3.org/ns/ttml">at</span>
-                            <space/>
-                            <span begin="2:19.451" end="2:19.863" xmlns="http://www.w3.org/ns/ttml">dawn,</span>
-                            <space/>
-                            <span begin="2:20.454" end="2:20.704" xmlns="http://www.w3.org/ns/ttml">prais</span>
-                            <span begin="2:20.704" end="2:20.875" xmlns="http://www.w3.org/ns/ttml">ing</span>
-                            <space/>
-                            <span begin="2:20.875" end="2:21.276" xmlns="http://www.w3.org/ns/ttml">the</span>
-                            <space/>
-                            <span begin="2:21.276" end="2:21.865" xmlns="http://www.w3.org/ns/ttml">dusk</span>
-                        </text>
-                        <text for="L40">
-                            <span begin="2:22.104" end="2:22.281" xmlns="http://www.w3.org/ns/ttml">In</span>
-                            <space/>
-                            <span begin="2:22.281" end="2:22.681" xmlns="http://www.w3.org/ns/ttml">twi</span>
-                            <span begin="2:22.681" end="2:23.082" xmlns="http://www.w3.org/ns/ttml">light's</span>
-                            <space/>
-                            <span begin="2:23.082" end="2:23.653" xmlns="http://www.w3.org/ns/ttml">glow,</span>
-                            <space/>
-                            <span begin="2:23.653" end="2:23.944" xmlns="http://www.w3.org/ns/ttml">we</span>
-                            <space/>
-                            <span begin="2:23.944" end="2:24.289" xmlns="http://www.w3.org/ns/ttml">place</span>
-                            <space/>
-                            <span begin="2:24.496" end="2:24.928" xmlns="http://www.w3.org/ns/ttml">our</span>
-                            <space/>
-                            <span begin="2:24.928" end="2:25.256" xmlns="http://www.w3.org/ns/ttml">trust</span>
-                        </text>
-                        <text for="L41">
-                            <span begin="2:25.832" end="2:26.331" xmlns="http://www.w3.org/ns/ttml">When</span>
-                            <space/>
-                            <span begin="2:26.331" end="2:26.514" xmlns="http://www.w3.org/ns/ttml">shad</span>
-                            <span begin="2:26.514" end="2:26.752" xmlns="http://www.w3.org/ns/ttml">ows</span>
-                            <space/>
-                            <span begin="2:26.752" end="2:27.225" xmlns="http://www.w3.org/ns/ttml">fall,</span>
-                            <space/>
-                            <span begin="2:27.225" end="2:27.683" xmlns="http://www.w3.org/ns/ttml">dive</span>
-                            <space/>
-                            <span begin="2:27.683" end="2:27.884" xmlns="http://www.w3.org/ns/ttml">in</span>
-                            <span begin="2:27.884" end="2:28.104" xmlns="http://www.w3.org/ns/ttml">to</span>
-                            <space/>
-                            <span begin="2:28.104" end="2:28.321" xmlns="http://www.w3.org/ns/ttml">the</span>
-                            <space/>
-                            <span begin="2:28.321" end="2:28.952" xmlns="http://www.w3.org/ns/ttml">light</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="2:28.612" end="2:28.821">(In</span>
-                                <span begin="2:28.821" end="2:29.033">to</span>
-                                <space/>
-                                <span begin="2:29.033" end="2:29.253">the</span>
-                                <space/>
-                                <span begin="2:29.253" end="2:31.867">light)</span>
-                            </span>
-                        </text>
-                        <text for="L42">
-                            <span begin="2:29.066" end="2:29.289" xmlns="http://www.w3.org/ns/ttml">While</span>
-                            <space/>
-                            <span begin="2:29.289" end="2:29.510" xmlns="http://www.w3.org/ns/ttml">the</span>
-                            <space/>
-                            <span begin="2:29.510" end="2:29.989" xmlns="http://www.w3.org/ns/ttml">hori</span>
-                            <span begin="2:29.989" end="2:30.418" xmlns="http://www.w3.org/ns/ttml">zon</span>
-                            <space/>
-                            <span begin="2:30.418" end="2:30.880" xmlns="http://www.w3.org/ns/ttml">calls,</span>
-                            <space/>
-                            <span begin="2:30.880" end="2:31.309" xmlns="http://www.w3.org/ns/ttml">our</span>
-                            <space/>
-                            <span begin="2:31.309" end="2:31.509" xmlns="http://www.w3.org/ns/ttml">dream</span>
-                            <space/>
-                            <span begin="2:31.509" end="2:31.719" xmlns="http://www.w3.org/ns/ttml">stays</span>
-                            <space/>
-                            <span begin="2:31.719" end="2:33.350" xmlns="http://www.w3.org/ns/ttml">alive</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="2:38.329" end="2:38.589">(Our</span>
-                                <space/>
-                                <span begin="2:38.589" end="2:38.782">dream</span>
-                                <space/>
-                                <span begin="2:38.782" end="2:39.029">stays</span>
-                                <space/>
-                                <span begin="2:39.029" end="2:40.651">alive)</span>
-                            </span>
-                        </text>
-                        <text for="L43">
-                            <span begin="2:45.926" end="2:46.109" xmlns="http://www.w3.org/ns/ttml">Dream</span>
-                            <space/>
-                            <span begin="2:46.109" end="2:46.298" xmlns="http://www.w3.org/ns/ttml">stays</span>
-                            <space/>
-                            <span begin="2:46.298" end="2:49.886" xmlns="http://www.w3.org/ns/ttml">alive</span>
                         </text>
                         <text for="L44">
                             <span begin="2:46.923" end="2:47.891" xmlns="http://www.w3.org/ns/ttml">taiyou</span>
@@ -563,59 +345,6 @@
                             <space/>
                             <span begin="2:59.288" end="3:00.188" xmlns="http://www.w3.org/ns/ttml">utai</span>
                             <span begin="3:00.188" end="3:01.299" xmlns="http://www.w3.org/ns/ttml">mashou</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="3:00.687" end="3:00.976">(Ah-</span>
-                                <span begin="3:00.976" end="3:01.286">oh-</span>
-                                <span begin="3:01.286" end="3:01.617">oh</span>
-                                <space/>
-                                <span begin="3:01.617" end="3:01.957">ah-</span>
-                                <span begin="3:01.957" end="3:02.816">oh)</span>
-                            </span>
-                        </text>
-                        <text for="L48">
-                            <span begin="3:01.607" end="3:01.828" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="3:01.828" end="3:02.005" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:02.005" end="3:02.246" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:02.246" end="3:03.108" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:03.108" end="3:03.616" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="3:03.505" end="3:04.116" xmlns="http://www.w3.org/ns/ttml">(Ayy)</span>
-                            </span>
-                        </text>
-                        <text for="L49">
-                            <span begin="3:03.610" end="3:03.833" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:03.833" end="3:04.061" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:04.061" end="3:04.995" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:04.995" end="3:05.390" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L50">
-                            <span begin="3:05.428" end="3:05.640" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:05.640" end="3:05.841" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:05.841" end="3:06.768" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:06.768" end="3:07.170" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L51">
-                            <span begin="3:05.462" end="3:05.662" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:05.662" end="3:05.862" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:05.862" end="3:06.754" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:06.754" end="3:07.459" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
                         </text>
                         <text for="L52">
                             <span begin="3:07.182" end="3:07.620" xmlns="http://www.w3.org/ns/ttml">saa</span>
@@ -635,49 +364,6 @@
                                 <space/>
                                 <span begin="3:09.059" end="3:09.709">sama</span>
                                 <span begin="3:09.709" end="3:10.641">shite)</span>
-                            </span>
-                        </text>
-                        <text for="L53">
-                            <span begin="3:08.812" end="3:09.070" xmlns="http://www.w3.org/ns/ttml">Cause</span>
-                            <space/>
-                            <span begin="3:09.070" end="3:09.282" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:09.282" end="3:09.542" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:09.542" end="3:10.403" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:10.403" end="3:10.881" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                        </text>
-                        <text for="L54">
-                            <span begin="3:10.881" end="3:11.102" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:11.102" end="3:11.342" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:11.342" end="3:12.272" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:12.272" end="3:12.693" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="3:10.771" end="3:11.302">(Woh)</span>
-                            </span>
-                        </text>
-                        <text for="L55">
-                            <span begin="3:12.693" end="3:12.922" xmlns="http://www.w3.org/ns/ttml">I'm</span>
-                            <space/>
-                            <span begin="3:12.922" end="3:13.163" xmlns="http://www.w3.org/ns/ttml">a</span>
-                            <space/>
-                            <span begin="3:13.163" end="3:14.063" xmlns="http://www.w3.org/ns/ttml">horizon</span>
-                            <space/>
-                            <span begin="3:14.063" end="3:14.472" xmlns="http://www.w3.org/ns/ttml">dreamer</span>
-                            <span
-                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
-                                xmlns="http://www.w3.org/ns/ttml">
-                                <span begin="3:12.448" end="3:12.680">(Ah-</span>
-                                <span begin="3:12.680" end="3:12.869">ah</span>
-                                <space/>
-                                <span begin="3:12.869" end="3:13.122">oh-</span>
-                                <span begin="3:13.122" end="3:13.859">ohh)</span>
                             </span>
                         </text>
                         <text for="L56">
