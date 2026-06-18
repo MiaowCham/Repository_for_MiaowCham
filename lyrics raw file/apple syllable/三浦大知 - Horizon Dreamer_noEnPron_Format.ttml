@@ -575,8 +575,15 @@
                 <span begin="36.626" end="37.988">も</span>
             </p>
         </div>
-        <div begin="39.709" end="54.108" itunes:song-part="Chorus">
-            <p begin="39.709" end="43.154" itunes:key="L7" ttm:agent="v1">
+        <div begin="38.631" end="54.108" itunes:song-part="Chorus">
+            <p begin="38.631" end="43.154" itunes:key="L7" ttm:agent="v1">
+                <span ttm:role="x-bg">
+                    <span begin="38.631" end="39.089">(One</span>
+                    <space/>
+                    <span begin="39.089" end="39.563">two</span>
+                    <space/>
+                    <span begin="39.563" end="39.789">three)</span>
+                </span>
                 <span begin="39.709" end="40.641">太陽</span>
                 <span begin="40.641" end="40.762">に</span>
                 <span begin="40.762" end="41.930">焼かれて</span>
