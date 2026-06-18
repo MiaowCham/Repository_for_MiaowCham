@@ -416,7 +416,11 @@
                         <text for="L4">成为有意义的话语呢</text>
                         <text for="L5">我就这样 献上了自己的人生</text>
                         <text for="L6">不分昼夜</text>
-                        <text for="L7">在烈日下尽情舞蹈吧</text>
+                        <text for="L7">
+                            <span
+                                xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-bg"
+                                xmlns="http://www.w3.org/ns/ttml">(一二三)
+                            </span>在烈日下尽情舞蹈吧</text>
                         <text for="L8">若是受伤 便安然入睡吧</text>
                         <text for="L9">没空为没带伞而哀叹</text>
                         <text for="L10">在雨中放声歌唱吧</text>
